@@ -31,7 +31,8 @@ p{text-align: center;font-size: 2em;}
   
   color: white}
 
-
+.gauche:hover a{
+  color: white}
 
 .centre{
   padding: 20px;
@@ -47,6 +48,9 @@ p{text-align: center;font-size: 2em;}
   background-image:url('centre.jpg');
   background-size: 100%;
   background-repeat: no-repeat; 
+  color: white}
+
+.centre:hover a{
   color: white}
 
 
@@ -66,3 +70,6 @@ p{text-align: center;font-size: 2em;}
   background-size: 100%;
   background-repeat: no-repeat;   
   color: white}
+
+.droite:hover a{
+  color: black}
