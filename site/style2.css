@@ -2,31 +2,22 @@
 	margin:0;
 	padding:0;
 }
-
+body{background-color:rgb(240,240,240);}
 
 .chocolat {
-
 	margin-top:0px ;
 	position: top ;
 	position : fixed ;
-	height : 8% ;
+	height : 6% ;
 	text-align : center ;
 	width : 100% ; 
 	color : black ;
 	background-color : white ; 
-
     list-style-type: none;
-
-
     background: linear-gradient(to bottom, rgba(255, 255, 255,1), rgba(206, 206, 206,1));
-    
     box-shadow: 1px 1px 10px rgb(0, 0, 0);
 	text-shadow: 50px 1px 100px rgb(0, 0, 0);
-	transition: background 0.5s ease-in-out;
-	z-index: 1;
-}
-
-
+	z-index: 1;}
 
 .chocolat ul a{
     display: fixed ;
@@ -35,36 +26,37 @@
     font-size: 20px;
 	text-decoration: none;
 	text-align : center ; 	
-	transition: background 0.5s ease-in-out;
 	color: #454545;
 	-webkit-transition: color 0.7s linear ;
 	-moz-transition : color 0.7s linear ;
 	-ms-transition : color 0.7s linear ;
 	-o-transition : color 0.7s linear ;
 	transition : color 0.7s linear ;
-	z-index: 2;
-	
-}
+	z-index: 2;}
 
 .chocolat ul a:hover{
-
-
     padding: 10px 20px 10px 20px;
     list-style-type: none;
-
     color: rgb(248, 3, 28);
-	z-index: 3;
+	z-index: 3;}
+
+.chocolat li {
+	display:inline ; 
+	line-height: 50px  ;}
+
+
+	
+li {
+	list-style-position: inside;
 }
 
-li {
-	display:inline ; 
+.map {
 
-	}
-
+	z-index : 0 ;
+}
 .col-sm-7 {
 
 	text-align: center ;
-
 }
 
 .col-lg-12 {
@@ -86,6 +78,27 @@ html {
 	padding : 0px ;
 }
 
+
+
+footer {
+	color: #666;
+	background: #222;
+	bottom: 0px;
+	padding: 17px 0 18px 0;
+	border-top: 1px solid #000;
+	width: 100%;
+	bottom: 0px;}
+footer a {
+	color: #999;}
+footer a:hover {
+	color: #efefef;}
+@media (max-width: 767px) {
+	footer  {
+	  padding-left: 20px;
+	  padding-right: 20px;}}
+
+
+
 .espace40 { 
 
 	height : 40%
@@ -95,6 +108,11 @@ html {
 	
 		height : 5%
 	}
+
+.espace8 { 
+	
+		height : 5%
+}
 
 .espace15 { 
 	
@@ -125,3 +143,86 @@ html {
 	
 		height : 50%
 	}
+
+.espace2 { 
+
+	height : 2%
+}
+	
+.espace7 { 
+
+	height : 7%
+}
+
+.espace4 { 
+
+	height : 4%
+}
+	
+
+.espace3 { 
+
+	height : 3%
+}
+
+.espace12 { 
+
+	height : 12%
+}
+
+.espace35 { 
+
+	height : 35%
+}
+
+
+.aligne {
+
+	text-align: center ;
+}
+
+.un {
+
+	height : 20% ;
+	background-color: rgb(235,235,235);
+}
+
+.deux {
+
+	height : 20% ;
+	background-color:rgb(255,255,255) ;
+}
+
+.deuxetdemi {
+
+	height : 20% ;background-color:rgb(235,235,235) ;
+	
+}
+.trois {
+
+	height : 25% ;	background-color: rgb(255,255,255);
+	
+}
+
+.quatre {
+
+	height : 20% ;background-color: rgb(235,235,235);
+}
+
+.cinq {
+
+	height : 20% ;	background-color: rgb(255,255,255)
+	
+}
+
+
+.six {
+
+	height : 20% ;background-color: rgb(235,235,235);
+	
+}
+
+.sept {
+
+	height : 20% ;	background-color: rgb(235,235,235);
+}

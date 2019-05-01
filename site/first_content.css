@@ -1,0 +1,37 @@
+.conteneur2{display: flex;justify-content: space-around}
+
+.gauche2{
+    padding: 20px;
+    width:320px;
+    height: 320px;
+    border: 10px solid rgba(0,0,0,0.5);
+    border-radius: 0px 0px 0px 0px;
+    background-color: rgba(255,255,255,0.5);
+    color:black}
+  
+  .gauche2 h1{text-align: center;font-size: 1.5em}
+  .gauche2 p{text-align: center;font-size: 1em;}
+
+  .centre2{
+    padding: 20px;
+    width:320px;
+    height:320px ;
+    border: 10px solid rgba(0,0,0,0.5);
+    border-radius: 0px 0px 0px 0px;
+    background-color: rgba(255,255,255,0.6);
+    color: black}
+  
+  .centre2 h1{text-align: center;font-size: 1.5em}
+  .centre2 p{text-align: center;font-size: 1em;}
+   
+  .droite2{
+    padding: 20px;
+    width:320px;
+    height:320px ;
+    border: 10px solid rgba(0,0,0,0.5);
+    border-radius: 0px 0px 0px 0px;
+    background-color:rgba(255,255,255,0.7);
+    color: black}
+  
+  .droite2 h1{text-align: center;font-size: 1.5em}
+  .droite2 p{text-align: center;font-size: 1em;}
